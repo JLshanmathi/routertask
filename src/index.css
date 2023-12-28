@@ -1,0 +1,56 @@
+@media (min-width:1000px){
+  nav #nav{
+      display: none;
+  }
+}
+body
+{
+  background: url("https://img.freepik.com/premium-photo/gradient-banner-background-image-jpg-gradient-background-header_873925-100409.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+#navbarSupportedContent li a{
+  border-bottom: 2px solid transparent;
+  color:rgb(19, 92, 19) !important;
+}
+.card img{
+  height: 50vh;
+  width: 100% !important;
+}
+nav{
+  box-shadow: 5px 5px 15px #494c4f;
+}
+nav #nav{
+  color: #494c4f !important;
+}
+#navbarSupportedContent li a:hover{
+  border-bottom: 4px solid #0aaa01;
+  cursor: pointer;
+  color: #0aaa01 !important;
+  transition: .3s ease-out;  
+}
+.card .card-body a{
+  color: #0aaa01 !important;
+
+}
+.card{
+  box-shadow: 5px 5px 15px #494c4f;
+  cursor: pointer !important;
+}
+.card .card-body p{
+  color: #494c4f !important;
+}
+nav{
+  position:sticky !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+img{
+  width: 120px;
+  height:80px;
+  background-color: #494c4f !important;
+
+}
